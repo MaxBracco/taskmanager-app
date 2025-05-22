@@ -1,3 +1,3 @@
 # taskmanager-app
 
-### The Task is to create a Web-GUI with a python task manager
+### The task is to create a web-GUI with a python task manager
