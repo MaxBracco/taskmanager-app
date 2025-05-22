@@ -1,3 +1,5 @@
 # taskmanager-app
 
-### The task is to create a web-GUI with a python task manager
+### please read carefully
+---
+The taskmanager is currently in production. All rights reserved.
