@@ -1,0 +1,476 @@
+[
+    {
+        "id": 13,
+        "title": "Fehlerbehebung Website",
+        "description": "Fehlerbehebung Website Aufgabe.",
+        "due_date": "2025-06-05",
+        "priority": "High",
+        "status": "Completed",
+        "assigned_to": "Nina",
+        "tags": [],
+        "notes": [],
+        "created_at": "2025-06-04T10:00:00",
+        "completed_at": "2025-06-04T14:19:21.449201",
+        "recurrence": null
+    },
+    {
+        "id": 30,
+        "title": "Projektabschlussdokumentation",
+        "description": "Projektabschlussdokumentation Aufgabe.",
+        "due_date": "2025-06-06",
+        "priority": "High",
+        "status": "Completed",
+        "assigned_to": "Max",
+        "tags": [
+            "Projekt"
+        ],
+        "notes": [],
+        "created_at": "2025-06-04T10:00:00",
+        "completed_at": "2025-06-04T14:27:47.249322",
+        "recurrence": null
+    },
+    {
+        "id": 6,
+        "title": "Server-Backup durchführen",
+        "description": "Server-Backup durchführen Aufgabe.",
+        "due_date": "2025-06-09",
+        "priority": "High",
+        "status": "In Progress",
+        "assigned_to": "Julia",
+        "tags": [
+            "Finanzen"
+        ],
+        "notes": [],
+        "created_at": "2025-06-04T10:00:00",
+        "completed_at": null,
+        "recurrence": null
+    },
+    {
+        "id": 12,
+        "title": "Newsletter schreiben",
+        "description": "Newsletter schreiben Aufgabe.",
+        "due_date": "2025-06-09",
+        "priority": "High",
+        "status": "In Progress",
+        "assigned_to": "Tom",
+        "tags": [
+            "Support"
+        ],
+        "notes": [],
+        "created_at": "2025-06-04T10:00:00",
+        "completed_at": null,
+        "recurrence": null
+    },
+    {
+        "id": 18,
+        "title": "Kundenzufriedenheit messen",
+        "description": "Kundenzufriedenheit messen Aufgabe.",
+        "due_date": "2025-06-09",
+        "priority": "High",
+        "status": "Completed",
+        "assigned_to": "Julia",
+        "tags": [
+            "Design"
+        ],
+        "notes": [],
+        "created_at": "2025-06-04T10:00:00",
+        "completed_at": null,
+        "recurrence": null
+    },
+    {
+        "id": 19,
+        "title": "Usability-Test durchführen",
+        "description": "Usability-Test durchführen Aufgabe.",
+        "due_date": "2025-06-09",
+        "priority": "Medium",
+        "status": "In Progress",
+        "assigned_to": "Nina",
+        "tags": [
+            "Support"
+        ],
+        "notes": [],
+        "created_at": "2025-06-04T10:00:00",
+        "completed_at": null,
+        "recurrence": null
+    },
+    {
+        "id": 24,
+        "title": "Systemupdate planen",
+        "description": "Systemupdate planen Aufgabe.",
+        "due_date": "2025-06-09",
+        "priority": "Low",
+        "status": "Completed",
+        "assigned_to": "Ben",
+        "tags": [
+            "Design"
+        ],
+        "notes": [],
+        "created_at": "2025-06-04T10:00:00",
+        "completed_at": null,
+        "recurrence": null
+    },
+    {
+        "id": 26,
+        "title": "FAQ aktualisieren",
+        "description": "FAQ aktualisieren Aufgabe.",
+        "due_date": "2025-06-09",
+        "priority": "Medium",
+        "status": "Completed",
+        "assigned_to": "Julia",
+        "tags": [
+            "Marketing"
+        ],
+        "notes": [],
+        "created_at": "2025-06-04T10:00:00",
+        "completed_at": null,
+        "recurrence": null
+    },
+    {
+        "id": 15,
+        "title": "Social Media Plan",
+        "description": "Social Media Plan Aufgabe.",
+        "due_date": "2025-06-10",
+        "priority": "Low",
+        "status": "Scheduled",
+        "assigned_to": "Nina",
+        "tags": [
+            "Design"
+        ],
+        "notes": [],
+        "created_at": "2025-06-04T10:00:00",
+        "completed_at": null,
+        "recurrence": null
+    },
+    {
+        "id": 1,
+        "title": "Projektplanung",
+        "description": "Projektplanung Aufgabe.",
+        "due_date": "2025-06-11",
+        "priority": "Medium",
+        "status": "Completed",
+        "assigned_to": "Tom",
+        "tags": [
+            "Projekt"
+        ],
+        "notes": [],
+        "created_at": "2025-06-04T10:00:00",
+        "completed_at": null,
+        "recurrence": null
+    },
+    {
+        "id": 7,
+        "title": "E-Mail-Kampagne starten",
+        "description": "E-Mail-Kampagne starten Aufgabe.",
+        "due_date": "2025-06-12",
+        "priority": "High",
+        "status": "Scheduled",
+        "assigned_to": "Julia",
+        "tags": [],
+        "notes": [],
+        "created_at": "2025-06-04T10:00:00",
+        "completed_at": null,
+        "recurrence": null
+    },
+    {
+        "id": 14,
+        "title": "Präsentation erstellen",
+        "description": "Präsentation erstellen Aufgabe.",
+        "due_date": "2025-06-12",
+        "priority": "Medium",
+        "status": "In Progress",
+        "assigned_to": "Anna",
+        "tags": [
+            "Projekt"
+        ],
+        "notes": [],
+        "created_at": "2025-06-04T10:00:00",
+        "completed_at": null,
+        "recurrence": null
+    },
+    {
+        "id": 28,
+        "title": "Testfälle anpassen",
+        "description": "Testfälle anpassen Aufgabe.",
+        "due_date": "2025-06-12",
+        "priority": "Medium",
+        "status": "Scheduled",
+        "assigned_to": "Max",
+        "tags": [],
+        "notes": [],
+        "created_at": "2025-06-04T10:00:00",
+        "completed_at": null,
+        "recurrence": null
+    },
+    {
+        "id": 5,
+        "title": "Budget prüfen",
+        "description": "Budget prüfen Aufgabe.",
+        "due_date": "2025-06-13",
+        "priority": "Low",
+        "status": "Scheduled",
+        "assigned_to": "Max",
+        "tags": [
+            "Projekt"
+        ],
+        "notes": [],
+        "created_at": "2025-06-04T10:00:00",
+        "completed_at": null,
+        "recurrence": null
+    },
+    {
+        "id": 9,
+        "title": "Team-Retrospektive",
+        "description": "Team-Retrospektive Aufgabe.",
+        "due_date": "2025-06-13",
+        "priority": "High",
+        "status": "Completed",
+        "assigned_to": "Tim",
+        "tags": [
+            "Finanzen"
+        ],
+        "notes": [],
+        "created_at": "2025-06-04T10:00:00",
+        "completed_at": null,
+        "recurrence": null
+    },
+    {
+        "id": 11,
+        "title": "Onboarding vorbereiten",
+        "description": "Onboarding vorbereiten Aufgabe.",
+        "due_date": "2025-06-13",
+        "priority": "Medium",
+        "status": "In Progress",
+        "assigned_to": "Lukas",
+        "tags": [
+            "Projekt"
+        ],
+        "notes": [],
+        "created_at": "2025-06-04T10:00:00",
+        "completed_at": null,
+        "recurrence": null
+    },
+    {
+        "id": 17,
+        "title": "Bericht erstellen",
+        "description": "Bericht erstellen Aufgabe.",
+        "due_date": "2025-06-13",
+        "priority": "High",
+        "status": "To Do",
+        "assigned_to": "Laura",
+        "tags": [
+            "Meeting"
+        ],
+        "notes": [],
+        "created_at": "2025-06-04T10:00:00",
+        "completed_at": null,
+        "recurrence": null
+    },
+    {
+        "id": 23,
+        "title": "Schulung organisieren",
+        "description": "Schulung organisieren Aufgabe.",
+        "due_date": "2025-06-13",
+        "priority": "Medium",
+        "status": "To Do",
+        "assigned_to": "Julia",
+        "tags": [
+            "Projekt"
+        ],
+        "notes": [],
+        "created_at": "2025-06-04T10:00:00",
+        "completed_at": null,
+        "recurrence": null
+    },
+    {
+        "id": 20,
+        "title": "Sicherheitsaudit",
+        "description": "Sicherheitsaudit Aufgabe.",
+        "due_date": "2025-06-14",
+        "priority": "Medium",
+        "status": "Completed",
+        "assigned_to": "Tim",
+        "tags": [
+            "Marketing"
+        ],
+        "notes": [],
+        "created_at": "2025-06-04T10:00:00",
+        "completed_at": null,
+        "recurrence": null
+    },
+    {
+        "id": 21,
+        "title": "Marktforschung starten",
+        "description": "Marktforschung starten Aufgabe.",
+        "due_date": "2025-06-14",
+        "priority": "Medium",
+        "status": "Completed",
+        "assigned_to": "Tim",
+        "tags": [
+            "Support"
+        ],
+        "notes": [],
+        "created_at": "2025-06-04T10:00:00",
+        "completed_at": null,
+        "recurrence": null
+    },
+    {
+        "id": 22,
+        "title": "Produktdemo vorbereiten",
+        "description": "Produktdemo vorbereiten Aufgabe.",
+        "due_date": "2025-06-15",
+        "priority": "Low",
+        "status": "Scheduled",
+        "assigned_to": "Ben",
+        "tags": [
+            "Support"
+        ],
+        "notes": [],
+        "created_at": "2025-06-04T10:00:00",
+        "completed_at": null,
+        "recurrence": null
+    },
+    {
+        "id": 25,
+        "title": "Vertragsprüfung",
+        "description": "Vertragsprüfung Aufgabe.",
+        "due_date": "2025-06-15",
+        "priority": "Low",
+        "status": "To Do",
+        "assigned_to": "Julia",
+        "tags": [
+            "Meeting"
+        ],
+        "notes": [],
+        "created_at": "2025-06-04T10:00:00",
+        "completed_at": null,
+        "recurrence": null
+    },
+    {
+        "id": 2,
+        "title": "Meeting mit dem Kunden",
+        "description": "Meeting mit dem Kunden Aufgabe.",
+        "due_date": "2025-06-16",
+        "priority": "Low",
+        "status": "Scheduled",
+        "assigned_to": "Julia",
+        "tags": [
+            "Support"
+        ],
+        "notes": [],
+        "created_at": "2025-06-04T10:00:00",
+        "completed_at": null,
+        "recurrence": null
+    },
+    {
+        "id": 3,
+        "title": "Code Review",
+        "description": "Code Review Aufgabe.",
+        "due_date": "2025-06-16",
+        "priority": "Medium",
+        "status": "Scheduled",
+        "assigned_to": "Laura",
+        "tags": [
+            "Entwicklung"
+        ],
+        "notes": [],
+        "created_at": "2025-06-04T10:00:00",
+        "completed_at": null,
+        "recurrence": null
+    },
+    {
+        "id": 16,
+        "title": "Supportanfragen beantworten",
+        "description": "Supportanfragen beantworten Aufgabe.",
+        "due_date": "2025-06-16",
+        "priority": "High",
+        "status": "In Progress",
+        "assigned_to": "Julia",
+        "tags": [
+            "Meeting"
+        ],
+        "notes": [],
+        "created_at": "2025-06-04T10:00:00",
+        "completed_at": null,
+        "recurrence": null
+    },
+    {
+        "id": 4,
+        "title": "Design Mockups erstellen",
+        "description": "Design Mockups erstellen Aufgabe.",
+        "due_date": "2025-06-17",
+        "priority": "Medium",
+        "status": "In Progress",
+        "assigned_to": "Lukas",
+        "tags": [
+            "Entwicklung"
+        ],
+        "notes": [],
+        "created_at": "2025-06-04T10:00:00",
+        "completed_at": null,
+        "recurrence": null
+    },
+    {
+        "id": 27,
+        "title": "Blogartikel schreiben",
+        "description": "Blogartikel schreiben Aufgabe.",
+        "due_date": "2025-06-17",
+        "priority": "Low",
+        "status": "In Progress",
+        "assigned_to": "Lukas",
+        "tags": [
+            "Marketing"
+        ],
+        "notes": [],
+        "created_at": "2025-06-04T10:00:00",
+        "completed_at": null,
+        "recurrence": null
+    },
+    {
+        "id": 8,
+        "title": "SEO-Analyse",
+        "description": "SEO-Analyse Aufgabe.",
+        "due_date": "2025-06-18",
+        "priority": "Medium",
+        "status": "To Do",
+        "assigned_to": "Tim",
+        "tags": [
+            "Marketing"
+        ],
+        "notes": [],
+        "created_at": "2025-06-04T10:00:00",
+        "completed_at": null,
+        "recurrence": null
+    },
+    {
+        "id": 10,
+        "title": "Datenbank optimieren",
+        "description": "Datenbank optimieren Aufgabe.",
+        "due_date": "2025-06-18",
+        "priority": "Medium",
+        "status": "Completed",
+        "assigned_to": "Ben",
+        "tags": [
+            "Finanzen"
+        ],
+        "notes": [],
+        "created_at": "2025-06-04T10:00:00",
+        "completed_at": null,
+        "recurrence": null
+    },
+    {
+        "id": 29,
+        "title": "UX-Review",
+        "description": "UX-Review Aufgabe.",
+        "due_date": "2025-06-18",
+        "priority": "High",
+        "status": "In Progress",
+        "assigned_to": "Julia",
+        "tags": [
+            "Design"
+        ],
+        "notes": [],
+        "created_at": "2025-06-04T10:00:00",
+        "completed_at": null,
+        "recurrence": null
+    }
+]
