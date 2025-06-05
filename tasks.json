@@ -19,14 +19,14 @@
         "description": "Projektabschlussdokumentation Aufgabe.",
         "due_date": "2025-06-06",
         "priority": "High",
-        "status": "Completed",
+        "status": "On Hold",
         "assigned_to": "Max",
         "tags": [
             "Projekt"
         ],
         "notes": [],
         "created_at": "2025-06-04T10:00:00",
-        "completed_at": "2025-06-04T14:27:47.249322",
+        "completed_at": null,
         "recurrence": null
     },
     {
@@ -51,14 +51,14 @@
         "description": "Newsletter schreiben Aufgabe.",
         "due_date": "2025-06-09",
         "priority": "High",
-        "status": "In Progress",
+        "status": "Completed",
         "assigned_to": "Tom",
         "tags": [
             "Support"
         ],
         "notes": [],
         "created_at": "2025-06-04T10:00:00",
-        "completed_at": null,
+        "completed_at": "2025-06-05T11:22:59.095840",
         "recurrence": null
     },
     {
@@ -367,7 +367,7 @@
         "description": "Code Review Aufgabe.",
         "due_date": "2025-06-16",
         "priority": "Medium",
-        "status": "Scheduled",
+        "status": "On Hold",
         "assigned_to": "Laura",
         "tags": [
             "Entwicklung"
@@ -431,7 +431,7 @@
         "description": "SEO-Analyse Aufgabe.",
         "due_date": "2025-06-18",
         "priority": "Medium",
-        "status": "To Do",
+        "status": "In Progress",
         "assigned_to": "Tim",
         "tags": [
             "Marketing"
@@ -447,7 +447,7 @@
         "description": "Datenbank optimieren Aufgabe.",
         "due_date": "2025-06-18",
         "priority": "Medium",
-        "status": "Completed",
+        "status": "Cancelled",
         "assigned_to": "Ben",
         "tags": [
             "Finanzen"

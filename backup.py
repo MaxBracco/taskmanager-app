@@ -106,8 +106,7 @@ if "confirm_delete_completed" not in st.session_state:
     st.session_state.confirm_delete_completed = False
 if "confirm_delete_all" not in st.session_state: # NEU: Für "Alle Aufgaben löschen" Bestätigung
     st.session_state.confirm_delete_all = False
-if "page" not in st.session_state: # Initialize page state
-    st.session_state.page = "Dashboard"
+
 
 # --- Funktionen für Task-Management ---
 def add_task(title, description, due_date, priority, status, assigned_to, tags, recurrence):
@@ -264,8 +263,8 @@ def generate_recurring_tasks():
                     save_tasks(st.session_state.tasks) # Sofort speichern
 
 # --- Streamlit UI ---
-st.set_page_config(layout="wide", page_title="Task Manager")
-st.title("📋 Task Manager")
+st.set_page_config(layout="wide", page_title="Taskmanager")
+st.title("🇺🇸 Taskmanager")
 
 # --- CSS Styling ---
 st.markdown(
@@ -449,28 +448,33 @@ st.markdown(
     .priority-3 { background-color: #FEF3C7; color: #D97706; } /* Gold */
     .priority-2 { background-color: #DBEAFE; color: #2563EB; } /* Blau */
     .priority-1 { background-color: #E5E7EB; color: #4B5563; } /* Grau */
-    
-    /* Custom styles for sidebar buttons */
-    .sidebar-button button {
-        width: 100%;
-        text-align: left;
-        background-color: #f0f2f6; /* Light gray for inactive */
-        color: #4B5563; /* Dark gray text */
-        border: none;
+    .list-radio-container .stRadio > label {
+        background-color: #F3E8FF;
+        border: 1px solid #D8B4FE;
         border-radius: 8px;
-        padding: 12px 20px;
-        margin-bottom: 8px;
+        padding: 8px 15px;
+        margin: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, border-color 0.3s ease;
+        display: inline-flex;
+        align-items: center;
         font-weight: 600;
-        transition: background-color 0.3s ease, color 0.3s ease;
+        color: #6D28D9;
     }
-    .sidebar-button button:hover {
-        background-color: #e2e4e8;
-        color: #2D3748;
+    .list-radio-container .stRadio > label:hover {
+        background-color: #E9D5FF;
+        border-color: #A78BFA;
     }
-    .sidebar-button button.active {
-        background-color: #7B2CBF; /* Primary purple for active */
-        color: white;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    .list-radio-container .stRadio > label[data-baseweb="radio"] > div:first-child {
+        border-color: #6D28D9 !important;
+    }
+    .list-radio-container .stRadio > label[data-baseweb="radio"] > div:first-child > div {
+        background-color: #6D28D9 !important;
+    }
+    .list-radio-container .stRadio > label[aria-checked="true"] {
+        background-color: #BFACE2;
+        border-color: #7B2CBF;
+        color: #3C096C;
     }
     </style>
     """,
@@ -480,19 +484,10 @@ st.markdown(
 
 # Sidebar Navigation
 st.sidebar.header("Navigation")
-
-# Custom navigation buttons
-if st.sidebar.button("Dashboard", key="nav_dashboard"):
-    st.session_state.page = "Dashboard"
-if st.sidebar.button("Aufgaben verwalten", key="nav_manage_tasks"):
-    st.session_state.page = "Aufgaben verwalten"
-if st.sidebar.button("Berichte & Analyse", key="nav_reports_analysis"):
-    st.session_state.page = "Berichte & Analyse"
-if st.sidebar.button("Einstellungen", key="nav_settings"):
-    st.session_state.page = "Einstellungen"
+page = st.sidebar.radio("Gehe zu:", ["Dashboard", "Aufgaben verwalten", "Berichte & Analyse", "Einstellungen"])
 
 # --- Dashboard ---
-if st.session_state.page == "Dashboard":
+if page == "Dashboard":
     st.header("Übersicht")
 
     # Schnell-Statistiken
@@ -573,7 +568,7 @@ if st.session_state.page == "Dashboard":
 
 
 # --- Aufgaben verwalten ---
-elif st.session_state.page == "Aufgaben verwalten":
+elif page == "Aufgaben verwalten":
     st.header("Aufgaben verwalten")
 
     # --- Neue Aufgabe hinzufügen ---
@@ -770,7 +765,7 @@ elif st.session_state.page == "Aufgaben verwalten":
 
 
 # --- Berichte & Analyse ---
-elif st.session_state.page == "Berichte & Analyse":
+elif page == "Berichte & Analyse":
     st.header("Berichte & Analyse")
 
     if not st.session_state.tasks:
@@ -845,9 +840,9 @@ elif st.session_state.page == "Berichte & Analyse":
 
 
 # --- Einstellungen ---
-elif st.session_state.page == "Einstellungen":
+elif page == "Einstellungen":
     st.header("Einstellungen")
-    st.write("Hier können Sie allgemeine Einstellungen für den Task Manager vornehmen.")
+    st.write("Hier können Sie allgemeine Einstellungen für den Taskmanager vornehmen.")
 
     # Option zur manuellen Auslösung der wiederkehrenden Aufgaben
     st.subheader("Manuelle Generierung wiederkehrender Aufgaben")
