@@ -732,11 +732,9 @@ elif st.session_state.page == "Aufgaben verwalten":
 
     st.markdown("---")
     st.subheader("Wartungsaktionen")
+    # Verschieben des "Erledigte Aufgaben löschen" Buttons in die linke Spalte
     col_maintenance_1, col_maintenance_2 = st.columns(2)
-    with col_maintenance_1:
-        if st.button("Generiere wiederkehrende Aufgaben", key="generate_recurring_button"):
-            generate_recurring_tasks()
-    with col_maintenance_2:
+    with col_maintenance_1: # Jetzt in col_maintenance_1
         if st.button("Erledigte Aufgaben löschen", key="delete_completed_tasks_button"):
             st.session_state.confirm_delete_completed = True
         
