@@ -13,6 +13,48 @@ Wir haben eine voll funktionsfähige Taskmanager-Webapplikation entwickelt, die 
 Als Nächstes werden kleinere Optimierungen vorgenommen, z. B. zur Verbesserung der Performance und Nutzerfreundlichkeit. Im Team wird außerdem besprochen, welche Funktionen noch ergänzt oder überarbeitet werden können. Der Fokus liegt nun auf Feinschliff und Qualitätssicherung.
 
 ---
+```mermaid
+mindmap
+  root((Taskmanager Funktionen))
+  
+    Aufgabenverwaltung
+      Aufgaben erstellen
+      Aufgaben bearbeiten
+      Aufgaben löschen
+      Aufgaben kategorisieren
+      Priorität festlegen
+      Zeitraum festlegen
+      Erinnerungen setzen
+
+    Benutzeroberfläche
+      Dashboard
+      Filter & Suche
+      Dark-/Light-Mode
+      Responsive Design
+
+    Synchronisierung
+      Geräteübergreifend
+      Offline-Speicherung
+      Konfliktmanagement
+
+    Datenhaltung
+      Lokale Speicherung
+      JSON-Datei
+      Backup-Optionen
+
+    Statistik & Auswertung
+      Erledigte Aufgaben
+      Zeitaufwand
+      Aufgabenverteilung
+      Fortschrittsanzeige
+
+    Benutzerverwaltung
+      Nutzerprofile
+      Rechte & Rollen (optional)
+      Login-System (optional)
+
+```
+---
 
 # Zwischenbilanz – Stand 10.06.2025
 
