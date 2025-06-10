@@ -15,37 +15,26 @@ Als Nächstes werden kleinere Optimierungen vorgenommen, z. B. zur Verbesserun
 ---
 ```mermaid
 flowchart TD
-    A[Taskmanager] --> B1[Aufgabenverwaltung]
-    A --> B2[Benutzeroberfläche]
-    A --> B3[Synchronisierung]
-    A --> B4[Datenhaltung]
-    A --> B5[Statistik & Auswertung]
+    A[Taskmanager] --> B1[Aufgaben verwalten]
+    A --> B2[Dashboard]
+    A --> B3[Berichte & Analyse]
+    A --> B4[Einstellungen]
 
-    B1 --> C1[Aufgabe erstellen]
-    B1 --> C2[Aufgabe bearbeiten]
-    B1 --> C3[Aufgabe löschen]
-    B1 --> C4[Aufgaben kategorisieren]
-    B1 --> C5[Priorität festlegen]
-    B1 --> C6[Zeitraum definieren]
-    B1 --> C7[Erinnerung setzen]
+    B1 --> C1[erstellen/bearbeiteb/löschen]
+    B1 --> C2[Priorität]
+    B1 --> C3[Zeitraum]
+    B1 --> C4[Status]
 
-    B2 --> D1[Dashboard]
-    B2 --> D2[Filter & Suche]
-    B2 --> D3[Dark-/Light-Mode]
-    B2 --> D4[Responsive Design]
+    B2 --> D1[Übersicht]
+    B2 --> D2[Diagramme]
 
-    B3 --> E1[Geräteübergreifende Sync]
-    B3 --> E2[Offline-Nutzung]
-    B3 --> E3[Konfliktlösung]
+    B3 --> E1[Verteilung]
+    B3 --> E2[Nutzung]
+    B3 --> E3[Anteile]
 
-    B4 --> F1[Lokale Speicherung]
-    B4 --> F2[JSON-Datei]
-    B4 --> F3[Backup-Funktion]
-
-    B5 --> G1[Erledigte Aufgaben]
-    B5 --> G2[Zeitaufwand]
-    B5 --> G3[Aufgabenverteilung]
-    B5 --> G4[Fortschrittsanzeige]
+    B4 --> F1[Import]
+    B4 --> F2[Export]
+    B4 --> F3[Aufgaben löschen]
 
 ```
 ---
