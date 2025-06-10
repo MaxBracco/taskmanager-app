@@ -14,44 +14,38 @@ Als Nächstes werden kleinere Optimierungen vorgenommen, z. B. zur Verbesserun
 
 ---
 ```mermaid
-mindmap
-  root((Taskmanager Funktionen))
-  
-    Aufgabenverwaltung
-      Aufgaben erstellen
-      Aufgaben bearbeiten
-      Aufgaben löschen
-      Aufgaben kategorisieren
-      Priorität festlegen
-      Zeitraum festlegen
-      Erinnerungen setzen
+flowchart TD
+    A[Taskmanager] --> B1[Aufgabenverwaltung]
+    A --> B2[Benutzeroberfläche]
+    A --> B3[Synchronisierung]
+    A --> B4[Datenhaltung]
+    A --> B5[Statistik & Auswertung]
 
-    Benutzeroberfläche
-      Dashboard
-      Filter & Suche
-      Dark-/Light-Mode
-      Responsive Design
+    B1 --> C1[Aufgabe erstellen]
+    B1 --> C2[Aufgabe bearbeiten]
+    B1 --> C3[Aufgabe löschen]
+    B1 --> C4[Aufgaben kategorisieren]
+    B1 --> C5[Priorität festlegen]
+    B1 --> C6[Zeitraum definieren]
+    B1 --> C7[Erinnerung setzen]
 
-    Synchronisierung
-      Geräteübergreifend
-      Offline-Speicherung
-      Konfliktmanagement
+    B2 --> D1[Dashboard]
+    B2 --> D2[Filter & Suche]
+    B2 --> D3[Dark-/Light-Mode]
+    B2 --> D4[Responsive Design]
 
-    Datenhaltung
-      Lokale Speicherung
-      JSON-Datei
-      Backup-Optionen
+    B3 --> E1[Geräteübergreifende Sync]
+    B3 --> E2[Offline-Nutzung]
+    B3 --> E3[Konfliktlösung]
 
-    Statistik & Auswertung
-      Erledigte Aufgaben
-      Zeitaufwand
-      Aufgabenverteilung
-      Fortschrittsanzeige
+    B4 --> F1[Lokale Speicherung]
+    B4 --> F2[JSON-Datei]
+    B4 --> F3[Backup-Funktion]
 
-    Benutzerverwaltung
-      Nutzerprofile
-      Rechte & Rollen (optional)
-      Login-System (optional)
+    B5 --> G1[Erledigte Aufgaben]
+    B5 --> G2[Zeitaufwand]
+    B5 --> G3[Aufgabenverteilung]
+    B5 --> G4[Fortschrittsanzeige]
 
 ```
 ---
