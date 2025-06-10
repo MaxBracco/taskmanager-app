@@ -22,23 +22,16 @@ Sie hat auch eine zusätzliche Statistik- und Dashboardfunktion, sowie eine sepe
 Als nächstes werden ein paar Anwendungsoptimierungen vorgenommen und besprochen was noch verbessert werden kann
 
 ---
-# Zwischenbilanz am 10.06.2025
+# Zwischenbilanz – Stand 10.06.2025
 
-## Was ist in den vergangenen Sprints gut gelaufen?
+# Was ist in den vergangenen Sprints gut gelaufen?
+Der Code hat inzwischen eine stabile und gut strukturierte Basis, was Erweiterungen erleichtert. Viele Funktionen des Taskmanagers sind bereits umgesetzt, wodurch nur noch wenige neue Anforderungen bestehen. Insgesamt verlief die Entwicklung bisher sehr erfolgreich und zielgerichtet.
 
-Der Code hat mittlerweile eine solide Basis und lässt sich leicht verbessern.
-Mittlerweile ist es jedoch schwierig noch weitere Anforderungen zu finden, da der Taskmanager schon sehr umfangreich ist.
+# Wo stehen wir gerade & was kommt als Nächstes?
+Wir verfügen über eine funktionsfähige Webapplikation mit einem umfangreichen Taskmanager. Der Fokus liegt nun auf der Umsetzung einer Synchronisationsfunktion, um Daten geräteübergreifend aktuell zu halten. Dazu werden serverseitige Mechanismen und passende Schnittstellen entwickelt.
 
-## Wo stehen wir gerade & was kommt als nächstes?
+# Wie hat sich die Komplexität in unserem Projekt entwickelt?
+Durch die Einführung der Webapplikation ist die Komplexität gestiegen. Neue Abhängigkeiten, etwa in der requirements.txt, wurden eingebunden und die Systemarchitektur erweitert. Trotz dieser Herausforderungen konnten wir die Entwicklung gut kontrollieren.
 
-Wir haben bereits eine funktionierende Web-Applikation mit einem umfangreichenden Taskmanager.
-Als nächstes werden wir uns noch die Synchronisierung anschauen.
-
-## Wie hat sich die Komplexität in unseren Projekt entwickelt?
-
-Unser Projekt hat in den letzten Sprints eine Webapplikation dazubekommen
-Um an diesen Punkt zu gelangen musste die `requirements.txt` aktualisiert und hinzugefügt werden
-
-## Wie gehen wir damit um?
-
-Das Repository bekommt immer mehr Dateien, aber bleibt gut übersichtlich - somit geht alles nach Plan weiter
+# Wie gehen wir damit um?
+Das Repository wächst zwar, bleibt aber durch klare Strukturierung und Dokumentation übersichtlich. Neue Funktionen werden systematisch integriert und regelmäßig überprüft. So stellen wir sicher, dass das Projekt auch bei wachsender Größe stabil und verständlich bleibt.
