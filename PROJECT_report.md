@@ -1,5 +1,5 @@
 # PROJECT REPORT
----
+
 ## Wie hat uns SCRUM geholfen?
 
 - SCRUM hat uns nicht geholfen
@@ -23,7 +23,7 @@ Als nächstes werden ein paar Anwendungsoptimierungen vorgenommen und besprochen
 
 ---
 # Zwischenbilanz am 10.06.2025
----
+
 ## Was ist in den vergangenen Sprints gut gelaufen?
 
 Der Code hat mittlerweile eine solide Basis und lässt sich leicht verbessern.
