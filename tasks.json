@@ -35,14 +35,14 @@
         "description": "Server-Backup durchführen Aufgabe.",
         "due_date": "2025-06-09",
         "priority": "High",
-        "status": "In Progress",
+        "status": "Completed",
         "assigned_to": "Julia",
         "tags": [
             "Finanzen"
         ],
         "notes": [],
         "created_at": "2025-06-04T10:00:00",
-        "completed_at": null,
+        "completed_at": "2025-06-05T20:19:00.876344",
         "recurrence": null
     },
     {
