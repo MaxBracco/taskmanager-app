@@ -41,7 +41,7 @@ flowchart TD
 ```
 ---
 
-# Projekt Review 02 – Stand 10.06.2025
+# Projekt Review 02
 
 ## Was ist in den vergangenen Sprints gut gelaufen?
 Der Code hat inzwischen eine stabile und gut strukturierte Basis, was Erweiterungen erleichtert. Viele Funktionen des Taskmanagers sind bereits umgesetzt, wodurch nur noch wenige neue Anforderungen bestehen. Insgesamt verlief die Entwicklung bisher sehr erfolgreich und zielgerichtet.
