@@ -79,15 +79,18 @@ Das Repository wächst zwar, bleibt aber durch klare Strukturierung und Dokument
 
 ![image](https://github.com/user-attachments/assets/1e248d2c-6a46-4418-be95-1d60cb9927e7)
 
-Bei unserer App kann man nun zwischen verschiedenen Seiten wechseln - Dashboard, Aufgabenverwaltung, Bericht & Analyse und den Einstellungen.
-- Im Dashboard hat man eine Übersicht über die Aufgaben inkl. Anzahl, Erledigt, Statistiken und Details der Aufgaben
-- Bei der Aufgabenverwaltung kann man neue Aufgaben detailiert hinzufügen und filtern
-- Bei Bericht & Analyse kann man eine Auswertung sehen
-- Unter Einstellungen kann man alle Aufgaben löschen, die Aufgaben als '.json' exportieren oder eine andere importieren
+In unserer App kann man jetzt bequem zwischen verschiedenen Bereichen wechseln: Dashboard, Aufgabenverwaltung, Bericht & Analyse sowie Einstellungen.
+
+- Dashboard: Bietet eine Übersicht über alle Aufgaben inklusive Anzahl, Status, Statistiken und detaillierten Informationen.
+- Aufgabenverwaltung: Hier können neue Aufgaben detailliert hinzugefügt und nach verschiedenen Kriterien gefiltert werden.
+- Bericht & Analyse: Stellt eine Auswertung der Aufgaben in übersichtlicher Form dar.
+- Einstellungen: Ermöglicht das Löschen aller Aufgaben, den Export der Aufgaben als ´.json´-Datei sowie den Import einer vorhandenen ´.json´-Datei.
 
 ## Wie gut passt unser Finales Produkt zu der eingangs formulierten Produkt Vision?
 
-Die ursprüngliche Vision war sehr an den herkömmlichen Taskmanager gehalten, je weiter wir jedoch im Projekt kamen, umso mehr wurde die App angepasst und zunehmend verbessert. Es kamen neue Funktionen wie die verschiedensten Auswertungen und die Synchronisierung mittels einer '.json'-Datei dazu. Im Enddefekt kann unser Produkt um einiges mehr als die formulierte Produkt Vision.
+Die ursprüngliche Vision orientierte sich stark an einem klassischen Task-Manager. Im Verlauf des Projekts wurde die App jedoch stetig weiterentwickelt und um zahlreiche Funktionen erweitert. So kamen unter anderem verschiedene Auswertungsmöglichkeiten sowie die Synchronisierung über eine `.json`-Datei hinzu.
+
+Letztlich bietet unser finales Produkt deutlich mehr Funktionalität, als ursprünglich in der Produktvision vorgesehen war.
 
 ---
 
