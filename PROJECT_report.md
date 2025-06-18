@@ -84,7 +84,7 @@ In unserer App kann man jetzt bequem zwischen verschiedenen Bereichen wechseln: 
 - Dashboard: Bietet eine Übersicht über alle Aufgaben inklusive Anzahl, Status, Statistiken und detaillierten Informationen.
 - Aufgabenverwaltung: Hier können neue Aufgaben detailliert hinzugefügt und nach verschiedenen Kriterien gefiltert werden.
 - Bericht & Analyse: Stellt eine Auswertung der Aufgaben in übersichtlicher Form dar.
-- Einstellungen: Ermöglicht das Löschen aller Aufgaben, den Export der Aufgaben als ´.json´-Datei sowie den Import einer vorhandenen ´.json´-Datei.
+- Einstellungen: Ermöglicht das Löschen aller Aufgaben, den Export der Aufgaben als `.json`-Datei sowie den Import einer vorhandenen `.json`-Datei.
 
 ## Wie gut passt unser Finales Produkt zu der eingangs formulierten Produkt Vision?
 
