@@ -101,4 +101,3 @@ https://taskmanager-app.streamlit.app/
 # Das Github Repository
 
 https://github.com/MaxBracco/taskmanager-app
-](https://github.com/MaxBracco/taskmanager-app)
